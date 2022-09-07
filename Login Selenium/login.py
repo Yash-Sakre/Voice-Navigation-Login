@@ -14,7 +14,7 @@ login_field = driver.find_element("name", "identifier")
 login_field.clear()
 
 #enter username
-login_field.send_keys("SparrowBeast6969@gmail.com")
+login_field.send_keys("Email")
 login_field.send_keys(u'\ue007') #unicode for enter key
 time.sleep(2)
 
@@ -23,7 +23,7 @@ password_field = driver.find_element("name", "password")
 # password_field.clear()
 
 #enter password
-password_field.send_keys("kingtest")
+password_field.send_keys("Password")
 password_field.send_keys(u'\ue007') #unicode for enter key
 time.sleep(10)
 
